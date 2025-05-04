@@ -1,12 +1,18 @@
-from utils.patterns import plot_polar_pattern, plot_3d_radiation
-from utils.beamforming import plot_beamforming
+# Antenna Radiation Pattern & Beamforming Visualization
 
-def main():
-print("Generating Visualizations...")
-plot_polar_pattern()
-plot_3d_radiation()
-plot_beamforming()
-print("Plots saved in 'plots/' folder.")
+This project visualizes fundamental concepts in antenna theory using Python:
 
-if **name** == "**main**":
-main()
+## Visualizations
+
+1. 📡 **2D Radiation Pattern** – Directional plot using a cosine function
+2. 🌐 **3D Radiation Pattern** – Simulates a simple antenna gain pattern
+3. 📶 **Beamforming Visualization** – Shows how directional beam is formed using an antenna array
+
+## Run the Code
+
+```bash
+git clone https://github.com/karthikks26/Antenna-Visualization-Bixbi.git
+cd Antenna-Visualization-Bixbi
+pip install -r requirements.txt
+python main.py
+```
